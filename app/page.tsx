@@ -30,7 +30,7 @@ export default function Home() {
     const sub = await registration.pushManager.getSubscription();
 
     if (sub) {
-      alert('existing subscription');
+      alert('existing subscription'); 
       setSubscription(sub); //This would be sent to a server
     } else {
       alert('new subscription');
